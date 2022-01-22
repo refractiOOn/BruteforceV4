@@ -1,0 +1,180 @@
+﻿  BruteforceEngine.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  The contents of <string_view> are available only with C++17 or later.
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(11,21): error C2039: 'filesystem': is not a member of 'std'
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(24): message : see declaration of 'std'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(11,31): error C2878: 'filesystem': a namespace or class of this name does not exist
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(13,21): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(13,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(13,29): error C2143: syntax error: missing ',' before '&'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(14,22): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(14,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(14,30): error C2143: syntax error: missing ',' before '&'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(15,25): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(15,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(15,33): error C2143: syntax error: missing ',' before '&'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(14,19): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(14,23): error C2061: syntax error: identifier 'path'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(15,17): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(15,21): error C2061: syntax error: identifier 'path'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(16,25): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(16,29): error C2061: syntax error: identifier 'path'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(35,2): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(35,11): error C3646: 'm_encryptedFile': unknown override specifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(35,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(36,2): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(36,11): error C3646: 'm_plainFile': unknown override specifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(36,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(37,2): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(37,11): error C3646: 'm_logFile': unknown override specifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(37,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(17,36): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(17,19): error C7550: 'BruteforceEngine::{ctor}': the qualified name in this context names a constructor, not a type
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(17,40): error C2065: 'path': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(17,45): error C2146: syntax error: missing ')' before identifier 'encrypted'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(17,56): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(18,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(18,18): error C2065: 'encrypted': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(19,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(19,14): error C2065: 'plain': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(20,1): error C2059: syntax error: '{'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(20,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(20,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(23,34): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(23,43): error C2761: 'void BruteforceEngine::SetConfig(void)': redeclaration of member is not allowed
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(23,38): error C2065: 'path': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(23,43): error C2146: syntax error: missing ')' before identifier 'path'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(24,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(24,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(47,42): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(47,51): error C2761: 'void BruteforceEngine::EnablePasswordLog(void)': redeclaration of member is not allowed
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(47,46): error C2065: 'path': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(47,51): error C2146: syntax error: missing ')' before identifier 'path'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(48,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(48,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(61,21): error C2065: 'm_logFile': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(69,56): warning C4244: '+=': conversion from 'double' to 'int64_t', possible loss of data
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(74,43): error C2660: 'ReadFile': function does not take 2 arguments
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(13,6): message : see declaration of 'ReadFile'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(113,30): error C2514: 'std::lock_guard': class template cannot be constructed
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\mutex(433): message : see declaration of 'std::lock_guard'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(186,12): error C2065: 'm_logFile': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(245,36): error C2660: 'WriteFile': function does not take 2 arguments
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(14,6): message : see declaration of 'WriteFile'
+  main.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  The contents of <string_view> are available only with C++17 or later.
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(11,21): error C2039: 'filesystem': is not a member of 'std'
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(24): message : see declaration of 'std'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(11,31): error C2878: 'filesystem': a namespace or class of this name does not exist
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(13,21): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(13,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(13,29): error C2143: syntax error: missing ',' before '&'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(14,22): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(14,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(14,30): error C2143: syntax error: missing ',' before '&'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(15,25): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(15,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(15,33): error C2143: syntax error: missing ',' before '&'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(14,19): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(14,23): error C2061: syntax error: identifier 'path'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(15,17): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(15,21): error C2061: syntax error: identifier 'path'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(16,25): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(16,29): error C2061: syntax error: identifier 'path'
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(35,2): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(35,11): error C3646: 'm_encryptedFile': unknown override specifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(35,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(36,2): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(36,11): error C3646: 'm_plainFile': unknown override specifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(36,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(37,2): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(37,11): error C3646: 'm_logFile': unknown override specifier
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(37,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(10,2): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(10,6): error C2065: 'path': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(10,11): error C2146: syntax error: missing ';' before identifier 'encryptedFile'
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(10,11): error C2065: 'encryptedFile': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(11,2): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(11,6): error C2065: 'path': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(11,11): error C2146: syntax error: missing ';' before identifier 'plainFile'
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(11,11): error C2065: 'plainFile': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(19,2): error C2065: 'encryptedFile': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(20,2): error C2065: 'plainFile': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(46,26): error C2065: 'encryptedFile': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(46,41): error C2065: 'plainFile': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(49,32): error C2660: 'BruteforceEngine::SetConfig': function does not take 1 arguments
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(15,7): message : see declaration of 'BruteforceEngine::SetConfig'
+C:\Users\sotni\source\repos\BruteforceV4\main.cpp(53,47): error C2660: 'BruteforceEngine::EnablePasswordLog': function does not take 1 arguments
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.h(16,7): message : see declaration of 'BruteforceEngine::EnablePasswordLog'
+  cryptography.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+  The contents of <string_view> are available only with C++17 or later.
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(11,21): error C2039: 'filesystem': is not a member of 'std'
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(24): message : see declaration of 'std'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(11,31): error C2878: 'filesystem': a namespace or class of this name does not exist
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(13,21): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(13,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(13,29): error C2143: syntax error: missing ',' before '&'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(14,22): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(14,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(14,30): error C2143: syntax error: missing ',' before '&'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(15,25): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(15,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.h(15,33): error C2143: syntax error: missing ',' before '&'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(3,21): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(3,29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(3,29): error C2143: syntax error: missing ',' before '&'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(5,82): error C2664: 'std::basic_fstream<unsigned char,std::char_traits<unsigned char>>::basic_fstream<std::experimental::filesystem::v1::path>(const std::experimental::filesystem::v1::path &,std::ios_base::openmode,int)': cannot convert argument 1 from 'const int' to 'const std::experimental::filesystem::v1::path &'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(5,82): message : Reason: cannot convert from 'const int' to 'const std::experimental::filesystem::v1::path'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(5,82): message : use of undefined type 'std::experimental::filesystem::v1::path'
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\fstream(45,19): message : see declaration of 'std::experimental::filesystem::v1::path'
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\fstream(1226,5): message : see declaration of 'std::basic_fstream<unsigned char,std::char_traits<unsigned char>>::basic_fstream'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(10,2): error C2065: 'buf': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(11,2): error C2065: 'buf': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(11,13): error C2065: 'buf': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(15,22): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(15,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(15,30): error C2143: syntax error: missing ',' before '&'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(17,64): error C2664: 'std::basic_ofstream<unsigned char,std::char_traits<unsigned char>>::basic_ofstream<std::experimental::filesystem::v1::path>(const std::experimental::filesystem::v1::path &,std::ios_base::openmode,int)': cannot convert argument 1 from 'const int' to 'const std::experimental::filesystem::v1::path &'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(17,64): message : Reason: cannot convert from 'const int' to 'const std::experimental::filesystem::v1::path'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(17,64): message : use of undefined type 'std::experimental::filesystem::v1::path'
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\fstream(45,19): message : see declaration of 'std::experimental::filesystem::v1::path'
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\fstream(1028,5): message : see declaration of 'std::basic_ofstream<unsigned char,std::char_traits<unsigned char>>::basic_ofstream'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(22,14): error C2065: 'buf': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(22,22): error C2065: 'buf': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(22,32): error C2660: 'std::basic_ostream<_Elem,_Traits>::write': function does not take 1 arguments
+          with
+          [
+              _Elem=unsigned char,
+              _Traits=std::char_traits<unsigned char>
+          ]
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(526,39): message : see declaration of 'std::basic_ostream<_Elem,_Traits>::write'
+          with
+          [
+              _Elem=unsigned char,
+              _Traits=std::char_traits<unsigned char>
+          ]
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(26,25): error C2653: 'fs': is not a class or namespace name
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(26,33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(26,33): error C2143: syntax error: missing ',' before '&'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(28,80): error C2664: 'std::basic_ofstream<unsigned char,std::char_traits<unsigned char>>::basic_ofstream<std::experimental::filesystem::v1::path>(const std::experimental::filesystem::v1::path &,std::ios_base::openmode,int)': cannot convert argument 1 from 'const int' to 'const std::experimental::filesystem::v1::path &'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(28,80): message : Reason: cannot convert from 'const int' to 'const std::experimental::filesystem::v1::path'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(28,80): message : use of undefined type 'std::experimental::filesystem::v1::path'
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\fstream(45,19): message : see declaration of 'std::experimental::filesystem::v1::path'
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\fstream(1028,5): message : see declaration of 'std::basic_ofstream<unsigned char,std::char_traits<unsigned char>>::basic_ofstream'
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(33,14): error C2065: 'buf': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(33,22): error C2065: 'buf': undeclared identifier
+C:\Users\sotni\source\repos\BruteforceV4\cryptography.cpp(33,32): error C2660: 'std::basic_ostream<_Elem,_Traits>::write': function does not take 1 arguments
+          with
+          [
+              _Elem=unsigned char,
+              _Traits=std::char_traits<unsigned char>
+          ]
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(526,39): message : see declaration of 'std::basic_ostream<_Elem,_Traits>::write'
+          with
+          [
+              _Elem=unsigned char,
+              _Traits=std::char_traits<unsigned char>
+          ]
+  Generating Code...
