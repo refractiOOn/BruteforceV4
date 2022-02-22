@@ -9,7 +9,6 @@ void ReadFile(const fs::path& path, std::vector<unsigned char>& buf)
 	}
 	buf.clear();
 	buf.insert(buf.begin(), std::istreambuf_iterator<unsigned char>(file), std::istreambuf_iterator<unsigned char>());
-	file.close();
 }
 
 void WriteFile(const fs::path& path, std::vector<unsigned char>& buf)
@@ -20,7 +19,6 @@ void WriteFile(const fs::path& path, std::vector<unsigned char>& buf)
 		throw std::runtime_error("Could not open file");
 	}
 	file.write(&buf[0], buf.size());
-	file.close();
 }
 
 void AppendToFile(const fs::path& path, std::vector<unsigned char>& buf)
@@ -31,14 +29,11 @@ void AppendToFile(const fs::path& path, std::vector<unsigned char>& buf)
 		throw std::runtime_error("Could not open file");
 	}
 	file.write(&buf[0], buf.size());
-	file.close();
 }
 
 void SetPassword(std::string& password, std::vector<unsigned char>& key, std::vector<unsigned char>& iv)
 {
-	const EVP_MD* digest = EVP_get_digestbyname("md5");
-	const unsigned char* salt = nullptr;
-	EVP_BytesToKey(EVP_aes_128_cbc(), digest, salt, reinterpret_cast<unsigned char*>(&password[0]), password.size(), 1, &key[0], &iv[0]);
+	EVP_BytesToKey(EVP_aes_128_cbc(), EVP_md5(), nullptr, reinterpret_cast<unsigned char*>(&password[0]), password.size(), 1, &key[0], &iv[0]);
 }
 
 void CalculateHash(const std::vector<unsigned char>& data, std::vector<unsigned char>& hash)

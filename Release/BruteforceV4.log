@@ -1,9 +1,8 @@
 ﻿  BruteforceEngine.cpp
-C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(69,56): warning C4244: '+=': conversion from 'double' to 'int64_t', possible loss of data
-  main.cpp
-  cryptography.cpp
+C:\Users\sotni\source\repos\BruteforceV4\BruteforceEngine.cpp(70,56): warning C4244: '+=': conversion from 'double' to 'int64_t', possible loss of data
   Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 1080 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  4 of 1078 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   BruteforceV4.vcxproj -> C:\Users\sotni\source\repos\BruteforceV4\Release\BruteforceV4.exe
